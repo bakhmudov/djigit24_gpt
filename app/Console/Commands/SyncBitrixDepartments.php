@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\Department;
 use Illuminate\Console\Command;
-use CRest\CRest;
+use App\Libraries\CRest;
 
 class SyncBitrixDepartments extends Command
 {

@@ -1,0 +1,3 @@
+ping db
+mysql
+exit;

@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\BxUser;
 use App\Models\Task;
-use CRest\CRest;
+use App\Libraries\CRest;
 use Illuminate\Console\Command;
 
 class SyncBitrixTasks extends Command

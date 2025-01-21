@@ -23,7 +23,7 @@ return new class extends Migration
             $table->unsignedBigInteger('closed_by')->nullable();
             $table->timestamp('deadline')->nullable();
             $table->unsignedTinyInteger('status');
-            $table->unsignedTinyInteger('sub_status');
+            $table->smallInteger('sub_status');
             $table->timestamps();
 
             $table->foreign('created_by')->references('id')->on('bx_users');
